@@ -77,4 +77,6 @@ public class MapEdge {
     public String toSQLVals() {
         return String.format("'%s','%s','%s'", getId(), start.getId(), end.getId());
     }
+
+    /// Adding test files for cecking ssh keys. 
 }
